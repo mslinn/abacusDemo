@@ -38,7 +38,6 @@ python3 movieDemo.py
 
 ## Output
 ```
-$ python3 movieDemo.py
 [ UseCase(use_case='CUSTOMER_CHURN', pretty_name='Customer Churn Prediction', description='Identify customers who are most likely to churn out of your system and send them marketing promotions/emails to retain them. Deploy a deep learning, real-time model that identifies customers who are most likely to leave and increase retention.'),
   UseCase(use_case='ENERGY', pretty_name='Real-Time Forecasting', description='Accurately forecast energy or computation usage in real-time. Make downstream planning decision based on your predictions. We use generative modeling and deep learning to augment your dataset with synthetic data. This unique approach allows us to make accurate predictions in real-time, even when you have little historical data.'),
   UseCase(use_case='FINANCIAL_METRICS', pretty_name='Financial Metrics Forecasting', description='Accurately plan your cash flow, revenue and sales with state-of-the-art deep learning-based forecasting. We use generative modeling and deep learning to augment your dataset with synthetic data. This unique approach allows us to make accurate predictions, even when you have little historical data.'),
