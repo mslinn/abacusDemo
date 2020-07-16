@@ -1,0 +1,10 @@
+*.sublime-*
+*~
+.cache
+.idea/
+.idea_modules/
+.project
+.settings/
+*.iml
+*.stackdump
+*.csv
