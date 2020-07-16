@@ -1,10 +1,7 @@
 # This is an improved version of the sample code at https://abacus.ai/app/help/started
 # Mike Slinn mslinn@empathyworks.ai
 
-import csv
-import os
-import pprint # pretty print dictionary outputs
-import time
+import csv, os, pprint, time
 from realityengines.client import ReClient
 
 def show_time(message, time2, time1):
