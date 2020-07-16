@@ -8,18 +8,15 @@ def show_time(message, time2, time1):
     print(f"{message} in {(time2 - time1):.2f} seconds")
 
 time0 = time.time()
-
 api_key = os.environ.get('abacusKey')
 data_dir = './'
-
-pp = pprint.PrettyPrinter(indent=2)  # The formatting configuration for the pretty print tool.
-
+pp = pprint.PrettyPrinter(indent=2)
 client = ReClient(api_key)
 
 use_cases = client.list_use_cases()
 pp.pprint(use_cases)
 
-project = client.create_project(name='example movie recommendations', use_case='USER_RECOMMENDATIONS')
+project = client.create_project(name='EExample movie recommendations', use_case='USER_RECOMMENDATIONS')
 client.describe_use_case_requirements('USER_RECOMMENDATIONS')
 
 time1 = time.time()
